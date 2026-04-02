@@ -3,52 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\\u043E\u043E\u043F\\laba1\\shopapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\\u043E\u043E\u043F\\laba1\\shopapp\\models\\clothing\\clothing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|solutionrelative:models\\clothing\\clothing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\\u043E\u043E\u043F\\laba1\\shopapp\\models\\base\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|solutionrelative:models\\base\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\\u043E\u043E\u043F\\laba1\\shopapp\\deleteproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|solutionrelative:deleteproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\\u043E\u043E\u043F\\laba1\\shopapp\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|solutionrelative:addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\\u043E\u043E\u043F\\laba1\\shopapp\\models\\electronics\\laptop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|solutionrelative:models\\electronics\\laptop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\\u043E\u043E\u043F\\laba1\\shopapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\\u043E\u043E\u043F\\laba1\\shopapp\\models\\electronics\\smartphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|solutionrelative:models\\electronics\\smartphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\\u043E\u043E\u043F\\laba1\\shopapp\\factories\\productregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|solutionrelative:factories\\productregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\\u043E\u043E\u043F\\laba1\\shopapp\\models\\electronics\\electronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|solutionrelative:models\\electronics\\electronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\\u043E\u043E\u043F\\laba1\\shopapp\\factories\\implementations\\seaweedfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|solutionrelative:factories\\implementations\\seaweedfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\\u043E\u043E\u043F\\laba1\\shopapp\\models\\food\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|solutionrelative:models\\food\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\\u043E\u043E\u043F\\laba1\\shopapp\\factories\\iproductfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|solutionrelative:factories\\iproductfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\\u043E\u043E\u043F\\laba1\\shopapp\\models\\food\\seaweed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|solutionrelative:models\\food\\seaweed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|solutionrelative:addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\deleteproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|solutionrelative:deleteproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\\u043E\u043E\u043F\\laba1\\shopapp\\deleteproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5981BA-998D-59B6-F281-8AC48C13B0CE}|ShopApp.csproj|solutionrelative:deleteproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,157 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Laptop.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Models\\Electronics\\Laptop.cs",
-              "RelativeDocumentMoniker": "Models\\Electronics\\Laptop.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Models\\Electronics\\Laptop.cs",
-              "RelativeToolTip": "Models\\Electronics\\Laptop.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCEAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "SeaweedFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Factories\\Implementations\\SeaweedFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\Implementations\\SeaweedFactory.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Factories\\Implementations\\SeaweedFactory.cs",
+              "RelativeToolTip": "Factories\\Implementations\\SeaweedFactory.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T16:19:24.894Z",
+              "WhenOpened": "2026-04-01T20:09:38.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "ProductRegistry.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Factories\\ProductRegistry.cs",
+              "RelativeDocumentMoniker": "Factories\\ProductRegistry.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Factories\\ProductRegistry.cs",
+              "RelativeToolTip": "Factories\\ProductRegistry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T21:03:43.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Factories\\IProductFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\IProductFactory.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Factories\\IProductFactory.cs",
+              "RelativeToolTip": "Factories\\IProductFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T20:57:23.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
               "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\MainForm.cs",
               "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOkAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAIwB4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T17:30:16.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DeleteProductForm.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\DeleteProductForm.cs",
-              "RelativeDocumentMoniker": "DeleteProductForm.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\DeleteProductForm.cs",
-              "RelativeToolTip": "DeleteProductForm.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T16:48:21.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "AddProductForm.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\AddProductForm.cs",
               "RelativeDocumentMoniker": "AddProductForm.cs",
               "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\AddProductForm.cs",
               "RelativeToolTip": "AddProductForm.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAAADQAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowFkAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T19:35:27.681Z",
+              "WhenOpened": "2026-03-31T21:22:39.928Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Models\\Base\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Base\\Product.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Models\\Base\\Product.cs",
-              "RelativeToolTip": "Models\\Base\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAApAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Seaweed.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Models\\Food\\Seaweed.cs",
+              "RelativeDocumentMoniker": "Models\\Food\\Seaweed.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Models\\Food\\Seaweed.cs",
+              "RelativeToolTip": "Models\\Food\\Seaweed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T13:41:34.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Clothing.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Models\\Clothing\\Clothing.cs",
-              "RelativeDocumentMoniker": "Models\\Clothing\\Clothing.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Models\\Clothing\\Clothing.cs",
-              "RelativeToolTip": "Models\\Clothing\\Clothing.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T16:11:13.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Electronics.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Models\\Electronics\\Electronics.cs",
-              "RelativeDocumentMoniker": "Models\\Electronics\\Electronics.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Models\\Electronics\\Electronics.cs",
-              "RelativeToolTip": "Models\\Electronics\\Electronics.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T16:01:16.605Z",
+              "WhenOpened": "2026-04-01T20:05:08.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Smartphone.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Models\\Electronics\\Smartphone.cs",
-              "RelativeDocumentMoniker": "Models\\Electronics\\Smartphone.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Models\\Electronics\\Smartphone.cs",
-              "RelativeToolTip": "Models\\Electronics\\Smartphone.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T16:15:51.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Food.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Models\\Food\\Food.cs",
-              "RelativeDocumentMoniker": "Models\\Food\\Food.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\Models\\Food\\Food.cs",
-              "RelativeToolTip": "Models\\Food\\Food.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T16:13:09.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T13:20:30.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddProductForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\AddProductForm.cs",
-              "RelativeDocumentMoniker": "AddProductForm.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\AddProductForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "AddProductForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T15:12:56.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DeleteProductForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "DeleteProductForm.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\DeleteProductForm.cs",
               "RelativeDocumentMoniker": "DeleteProductForm.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\DeleteProductForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "DeleteProductForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\\u041E\u041E\u041F\\laba1\\ShopApp\\DeleteProductForm.cs",
+              "RelativeToolTip": "DeleteProductForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T16:34:39.763Z"
+              "WhenOpened": "2026-04-01T18:40:50.443Z"
             }
           ]
         }

@@ -9,6 +9,7 @@ using ShopApp.Models.Base;
 using ShopApp.Models.Electronics;
 using ShopApp.Models.Clothing;
 using ShopApp.Models.Food;
+using ShopApp.Factories;
 
 namespace ShopApp
 {
@@ -23,33 +24,25 @@ namespace ShopApp
 
         private void LoadProductTypes()
         {
-            comboBoxType.Items.AddRange(new string[]
-            {
-                "Смартфон",
-                "Ноутбук",
-                "Футболка",
-                "Йогурт"
-            });
+            comboBoxType.Items.Clear();
+            comboBoxType.Items.AddRange(ProductRegistry.GetAvailableTypes().ToArray());
+            
         }
 
         private void comboBoxType_SelectedIndexChanged(object sender, EventArgs e)
         {
             panelSpecific.Controls.Clear();
+            if (comboBoxType.SelectedItem == null) return;
 
-            string[] fields = comboBoxType.SelectedItem.ToString() switch
-            {
-                "Смартфон" => new[] { "Бренд", "Гарантия (мес.)", "RAM (GB)", "Память (GB)", "ОС" },
-                "Ноутбук" => new[] { "Бренд", "Гарантия (мес.)", "Процессор", "Видеокарта", "Экран (дюйм)" },
-                "Футболка" => new[] { "Размер", "Материал", "Пол", "Принт", "Рукав" },
-                "Йогурт" => new[] { "Вкус", "Жирность (%)", "Калории", "Органик (да/нет)", "Дней до истечения" },
-                _ => Array.Empty<string>()
-            };
+            var factory = ProductRegistry.GetFactory(comboBoxType.SelectedItem.ToString());
+            string[] fields = factory.GetUIFields();
 
             var table = new TableLayoutPanel
             {
                 Dock = DockStyle.Fill,
                 ColumnCount = 2,
-                RowCount = fields.Length
+                RowCount = fields.Length,
+                AutoScroll = true
             };
             table.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 170F));
             table.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
@@ -76,15 +69,6 @@ namespace ShopApp
 
         }
 
-        private string GetFieldValue(string fieldName)
-        {
-            var table = panelSpecific.Controls.OfType<TableLayoutPanel>().FirstOrDefault();
-            if (table == null) return "";
-            var box = table.Controls.OfType<TextBox>()
-                .FirstOrDefault(t => t.Name == fieldName);
-            return box?.Text.Trim() ?? "";
-        }
-
         private void buttonConfirm_Click(object sender, EventArgs e)
         {
             try
@@ -101,38 +85,20 @@ namespace ShopApp
                 decimal price = decimal.Parse(textBoxPrice.Text.Trim());
                 int id = new Random().Next(100, 9999);
 
-                CreatedProduct = comboBoxType.SelectedItem.ToString() switch
+                var factory = ProductRegistry.GetFactory(comboBoxType.SelectedItem.ToString());
+
+                var values = new Dictionary<string, string>();
+                var table = panelSpecific.Controls.OfType<TableLayoutPanel>().FirstOrDefault();
+
+                if (table != null)
                 {
-                    "Смартфон" => new Smartphone(id, name, price, desc,
-                        GetFieldValue("Бренд"),
-                        int.Parse(GetFieldValue("Гарантия (мес.)")),
-                        int.Parse(GetFieldValue("RAM (GB)")),
-                        int.Parse(GetFieldValue("Память (GB)")),
-                        GetFieldValue("ОС")),
+                    foreach (var tb in table.Controls.OfType<TextBox>())
+                    {
+                        values.Add(tb.Name, tb.Text.Trim());
+                    }
+                }
 
-                    "Ноутбук" => new Laptop(id, name, price, desc,
-                        GetFieldValue("Бренд"),
-                        int.Parse(GetFieldValue("Гарантия (мес.)")),
-                        GetFieldValue("Процессор"),
-                        GetFieldValue("Видеокарта"),
-                        double.Parse(GetFieldValue("Экран (дюйм)"))),
-
-                    "Футболка" => new TShirt(id, name, price, desc,
-                        GetFieldValue("Размер"),
-                        GetFieldValue("Материал"),
-                        GetFieldValue("Пол"),
-                        GetFieldValue("Принт"),
-                        GetFieldValue("Рукав")),
-
-                    "Йогурт" => new Yogurt(id, name, price, desc,
-                        DateTime.Now.AddDays(int.Parse(GetFieldValue("Дней до истечения"))),
-                        int.Parse(GetFieldValue("Калории")),
-                        GetFieldValue("Органик (да/нет)").ToLower() == "да",
-                        GetFieldValue("Вкус"),
-                        double.Parse(GetFieldValue("Жирность (%)"))),
-
-                    _ => throw new ArgumentException("Неизвестный тип!")
-                };
+                CreatedProduct = factory.Create(id, name, price, desc, values);
 
                 DialogResult = DialogResult.OK;
                 Close();

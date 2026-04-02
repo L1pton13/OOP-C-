@@ -1,6 +1,8 @@
 using System.Data;
 using System.Globalization;
 using ShopApp.Exceptions;
+using ShopApp.Factories;
+using ShopApp.Factories.Implementations;
 using ShopApp.Models.Base;
 using ShopApp.Models.Clothing;
 using ShopApp.Models.Electronics;
@@ -18,6 +20,14 @@ namespace ShopApp
             CultureInfo.DefaultThreadCurrentCulture = culture;
             CultureInfo.DefaultThreadCurrentUICulture = culture;
             InitializeComponent();
+
+            ProductRegistry.Register(new LaptopFactory());
+            ProductRegistry.Register(new SmartphoneFactory());
+            ProductRegistry.Register(new TShirtFactory());
+            ProductRegistry.Register(new YogurtFactory());
+            ProductRegistry.Register(new WafflesFactory());
+            ProductRegistry.Register(new SeaweedFactory());
+
             LoadCategories();
             LoadSortOptions();
             DisplayProducts(_allProducts);
@@ -29,18 +39,16 @@ namespace ShopApp
             TreeNode rootNode = new TreeNode("📦 Все товары");
             treeViewCategories.Nodes.Add(rootNode);
 
-            TreeNode category1 = new TreeNode("Электроника");
-            TreeNode category2 = new TreeNode("Одежда");
-            TreeNode category3 = new TreeNode("Еда");
-
-            rootNode.Nodes.Add(category1);
-            rootNode.Nodes.Add(category2);
-            rootNode.Nodes.Add(category3);
-
-            category1.Nodes.Add("📱 Смартфоны");
-            category1.Nodes.Add("💻 Ноутбуки");
-            category2.Nodes.Add("👕 Футболки");
-            category3.Nodes.Add("🥛 Йогурты");
+            var categories = ProductRegistry.GetAll().GroupBy(f => f.CategoryName);
+            foreach (var cat in categories) 
+            {
+                TreeNode catNode = new TreeNode(cat.Key);
+                foreach(var factory in cat)
+                {
+                    catNode.Nodes.Add(new TreeNode(factory.Icon + " " + factory.TypeName));
+                }
+                rootNode.Nodes.Add(catNode);
+            }
             rootNode.Expand();
         }
 
@@ -89,9 +97,13 @@ namespace ShopApp
                 BorderStyle = BorderStyle.FixedSingle
             };
 
+            var factory = ProductRegistry.GetAll().FirstOrDefault(f =>
+                            product.GetType().Name.Contains(f.TypeName.Replace(" ", "")));
+            string icon = factory?.Icon ?? "📦";
+
             var labelIcon = new Label
             {
-                Text = GetCategoryIcon(product),
+                Text = icon,
                 Font = new Font("Segoe UI Emoji", 28),
                 TextAlign = ContentAlignment.MiddleCenter,
                 Width = 178,
@@ -142,7 +154,7 @@ namespace ShopApp
                 Width = 120,
                 Height = 30,
                 Top = 172,
-                Left = 29,  // (178 - 120) / 2 = 29, центрируем
+                Left = 29,  
                 BackColor = Color.SteelBlue,
                 ForeColor = Color.White,
                 FlatStyle = FlatStyle.Flat,
@@ -165,20 +177,6 @@ namespace ShopApp
             var product = (Product)((Button)sender).Tag;
             statusLabelInfo.Text = product.GetInfo().Replace("\n", " | ");
         }
-
-        private string GetCategoryIcon(Product product)
-        {
-            return product switch
-            {
-                Smartphone => "📱",
-                Laptop => "💻",
-                TShirt => "👕",
-                Yogurt => "🥛",
-                _ => "📦"
-            };
-        }
-
-
 
         private void buttonSearch_Click(object sender, EventArgs e)
         {
@@ -204,14 +202,12 @@ namespace ShopApp
 
         private void treeViewCategories_AfterSelect(object sender, TreeViewEventArgs e)
         {
-            var filtered = e.Node.Text switch
-            {
-                "📱 Смартфоны" => _allProducts.OfType<Smartphone>().Cast<Product>().ToList(),
-                "💻 Ноутбуки" => _allProducts.OfType<Laptop>().Cast<Product>().ToList(),
-                "👕 Футболки" => _allProducts.OfType<TShirt>().Cast<Product>().ToList(),
-                "🥛 Йогурты" => _allProducts.OfType<Yogurt>().Cast<Product>().ToList(),
-                _ => _allProducts
-            };
+            if (e.Node.Parent == null) { DisplayProducts(_allProducts); return; }
+
+            // Просто проверяем, содержит ли имя типа товара текст из узла (убирая иконку)
+            string selectedType = e.Node.Text.Split(' ').Last();
+
+            var filtered = _allProducts.Where(p => p.GetType().Name.Contains(selectedType)).ToList();
             DisplayProducts(filtered);
         }
 

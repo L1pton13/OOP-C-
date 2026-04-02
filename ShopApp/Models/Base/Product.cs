@@ -6,7 +6,7 @@ using ShopApp.Exceptions;
 
 namespace ShopApp.Models.Base
 {
-    // [Serializable] — это АТРИБУТ. Позволяет сохранять объект в файл или передавать по сети.
+
     [Serializable]
     public abstract class Product
     {
